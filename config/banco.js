@@ -1,4 +1,4 @@
-var datasources = require( './config/datasources' );
+var datasources = require( './datasources' );
 var banco = {
 	database : datasources.database.ip ,
 	init: function(){
