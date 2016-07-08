@@ -9,7 +9,6 @@
   "author": "gabrieluizramos",
   "license": "ISC",
   "dependencies": {
-<<<<<<< HEAD
     "body-parser": "1.15.1",
     "express": "4.13.4",
     "mongodb": "2.1.19",
@@ -27,14 +26,5 @@
     "gulp-jsbeautifier": "2.0.3",
     "gulp-sass": "2.3.1",
     "gulp-uglify": "1.5.3"
-=======
-    "body-parser": "^1.15.1",
-    "express": "^4.13.4",
-    "mongodb": "^2.1.19",
-    "mongoose": "^4.4.19"
-  },
-  "devDependencies": {
-    "body-parser": "^1.15.1"
->>>>>>> 52501574a816fed421789b67e4a8978e961847d4
   }
 }
