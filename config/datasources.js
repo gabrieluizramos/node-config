@@ -1,20 +1,10 @@
 var datasources = {
 	app : {
-		port : 3000
-	} ,
-	routes : {
-		root : '/' , 
-		sobre : '/sobre',
-		consulta : '/consulta' ,
-	} ,
-	views : {
-		root : '/views/' , 
-		error : '404.html' ,
-		index : 'index.html' ,
-		sobre : 'sobre.html' , 
+		port : process.env.PORT  || 3000 ,
+		ip : process.env.IP
 	} ,
 	database : {
-		ip : 'mongodb://localhost:3000' ,
+		ip : 'mongodb://127.0.0.1:27017' || 'mongodb://localhost:3000' ,
 	} ,
 }
 
