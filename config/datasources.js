@@ -13,7 +13,6 @@ var datasources = {
 		error : '404.html' ,
 		index : 'index.html' ,
 		sobre : 'sobre.html' , 
->>>>>>> 52501574a816fed421789b67e4a8978e961847d4
 	} ,
 	database : {
 		ip : 'mongodb://127.0.0.1:27017' || 'mongodb://localhost:3000' ,
