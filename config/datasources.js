@@ -1,10 +1,6 @@
 var datasources = {
 	app : {
-<<<<<<< HEAD
 		port : process.env.PORT  || 3000 ,
-		ip : process.env.IP
-=======
-		port : process.env.PORT || 3000 ,
 		ip : process.env.IP
 	} ,
 	routes : {
